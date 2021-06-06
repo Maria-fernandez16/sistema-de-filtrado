@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Título de página -->
+        <title>Sistema de Filtrado</title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+
+        <!-- Meta que permite la correcta visualización en Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/Logo.png">
+                    </a>
+                </figure>
+            </article>
+        </header>
+
+        <main>
+            <section id="sistema-filtrado">
+                <nav id="filtros">
+                    <a href="#" id="todos" class="filtro-activo">Todos</a>
+                    <a href="#" id="habitacional" class="filtro-inactivo">Habitacional</a>
+                    <a href="#" id="corporativo" class="filtro-inactivo">Corporativo</a>
+                    <a href="#" id="paisajismo" class="filtro-inactivo">Paisajismo</a>
+                    <a href="#" id="comerciales" class="filtro-inactivo">Comercial</a>
+                </nav>
+
+                <article>
+                    <img src="img/sala.jpg" class="habitacional">
+                    <img src="img/sala 2.jpg" class="habitacional">
+                    <img src="img/Sala de juntas.jpg" class="corporativo">
+                    <img src="img/recepción.jpg" class="corporativo">
+                    <img src="img/restaurantes.jpg" class="comerciales">
+                    <img src="img/pasillos.jpg" class="corporativo">
+                    <img src="img/pasillos de entradas.jpg" class="paisajismo">
+                    <img src="img/parques.jpg" class="paisajismo">
+                    <img src="img/oficinas.jpeg" class="corporativo">
+                    <img src="img/oficina.jpg" class="corporativo">
+                    <img src="img/jardines.jpg" class="paisajismo">
+                    <img src="img/jardín interior.jpg" class="paisajismo">
+                    <img src="img/escaleras.jpg" class="habitacional">
+                    <img src="img/comedor.jpg" class="habitacional">
+                    <img src="img/comedor 2.jpg" class="habitacional">
+                    <img src="img/cafeteria.jpg" class="comerciales">
+                    <img src="img/área multiple.jpg" class="comerciales">                    
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <div id="superior-footer">
+                <div class="cajas-footer">
+                    <img src="img/Logo.png" >
+                </div>
+            </div>
+
+            <div id="inferior-footer">
+                <P>All rights reserved.</P>
+            </div>
+        </footer>
+
+
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
